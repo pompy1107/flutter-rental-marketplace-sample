@@ -42,3 +42,63 @@ lib/
 │       ├── domain/
 │       └── presentation/
 └── main.dart
+
+The sample separates:
+
+domain models and repository contracts
+data sources and repository implementations
+presentation and UI logic
+
+This structure is designed to make the project easier to test, maintain and extend.
+
+Tech Stack
+Flutter
+Dart
+Material 3
+Git
+Local mock data
+
+The project intentionally avoids external backend dependencies so it can be cloned and run immediately.
+
+Screens Included
+Home / marketplace
+Category results
+Product details
+Rental request
+Add product
+Running the Project
+
+Clone the repository:
+
+git clone https://github.com/pompy1107/flutter-rental-marketplace-sample.git
+
+Navigate to the project:
+
+cd flutter-rental-marketplace-sample
+
+Install dependencies:
+
+flutter pub get
+
+Run the application:
+
+flutter run
+Purpose
+
+This repository is a portfolio sample designed to demonstrate practical Flutter development, UI implementation, navigation, business-flow modelling and maintainable project structure.
+
+It is based on concepts developed for a real peer-to-peer rental marketplace prototype, with backend integrations and sensitive configuration intentionally excluded.
+
+Future Improvements
+
+Possible extensions include:
+
+REST API integration
+authentication
+state management
+favorites
+messaging
+payments
+push notifications
+automated testing
+CI/CD
